@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SOURCE-PRODUCER-1
+
+server:
+  port: 10010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://local.ttpai.cn:10001/eureka

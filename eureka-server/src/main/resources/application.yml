@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: EUREKA-SERVER
+
+server:
+  port: 10001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://local.ttpai.cn:${server.port}/eureka/
